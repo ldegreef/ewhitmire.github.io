@@ -25,11 +25,16 @@
     color: rgb(196, 196, 196);
 }
 
+.pub .note {
+}
 
 .pub .award {
     color: #3592e3;
-    text-transform: uppercase;
     font-weight: bold;
+    text-transform: uppercase;
+}
+.pub .minor {
+    color: #3592e3;
 }
 
 .pub .links {

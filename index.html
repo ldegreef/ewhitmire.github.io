@@ -1,25 +1,29 @@
 ---
 layout: default
-title: Home
+title: About
 weight: 0
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <div class="row">
+        <div class="col-md-3 col-sm-6 portrait">
+            <img src="/img/ericwhitmire.jpg"/>
+        </div>
+        <div class="col-md-9 col-sm-6 bio">
+            I'm a PhD student in Computer Science and Engineering advised by <a href="https://www.cs.washington.edu/people/faculty/shwetak">Shwetak Patel</a> in the <a href="http://ubicomplab.cs.washington.edu">Ubiquitous Computing Lab</a> at the <a href="http://cs.washington.edu">University of Washington</a>. With experience in rapid prototyping, signal processing, and machine learning, I specialize in projects at the intersection of hardware and software. I'm working on making it easier to interact with technology by enabling new kinds of sensing on the human body.
+        </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    </div>
+    
+        <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-9 edu">
+            I graduated from North Carolina State University in 2014 as a <a href="http://park.ncsu.edu">Park Scholar</a> with a double major in <a href="http://csc.ncsu.edu/">Computer Science</a> and <a href="http://www.bme.ncsu.edu">Biomedical Engineering</a>. I conducted research with <a href="http://www.ece.ncsu.edu/people/aybozkur/">Dr. Alper Bozkurt</a> in the <a href="http://ibionics.ece.ncsu.edu">iBionicS lab</a> and <a href="http://www.csc.ncsu.edu/people/bitzer">Dr. Donald Bitzer</a> in the RiboLab Resaerch Group.
+        </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    </div>
 
 </div>
