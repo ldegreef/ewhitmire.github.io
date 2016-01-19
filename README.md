@@ -1,1 +1,0 @@
-# ewhitmire.github.io
