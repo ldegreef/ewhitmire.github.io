@@ -1,6 +1,6 @@
 .pub {
     margin: 10px;
-    height: 130px;
+    min-height: 130px;
     font-size: 10pt;
     position: relative;
     border-color: #d6d6d6;
@@ -8,38 +8,30 @@
 
 }
 
-.pub > img {
-    margin-left:25px;
+.pub img {
     width:150px;
-    float:left;
     border-radius: 10px;
-    vertical-align: middle;
 }
 
-.pub > .title {
+.pub .title {
     color: rgb(190, 30, 45 );
     font-size: 12pt;
 }
-.pub > .authors {
+.pub .authors {
 }
 
 
-.pub > .venue {
+.pub .venue {
     color: rgb(196, 196, 196);
 }
 
-.pub > :not(img) {
-    margin-left: 200px;
-}
 
-.pub > .award {
+.pub .award {
     color: #3592e3;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-.pub > .links {
-    position:absolute;
-    bottom: 0px;
+.pub .links {
     
 }
