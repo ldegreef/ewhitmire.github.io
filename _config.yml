@@ -6,14 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Eric Whitmire
-email: emwhit@cs.washington.edu
+title: Lilian de Greef
+author: Lilian de Greef
+email: >
 description: > # this means to ignore newlines until "baseurl:"
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ericwhitmire.com" # the base hostname & protocol for your site
-github_username:  ewhitmire
-linkedin_username:  ericwhitmire
+github_username:  ldegreef
 
 # Build settings
 markdown: kramdown
