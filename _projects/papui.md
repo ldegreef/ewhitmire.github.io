@@ -4,7 +4,7 @@ authors: ''
 award: ''
 bibtex: ''
 blurb: |-
-   In an internship at Amazon I designed, developed, and evaluated eyes and head tracking related user interface elements to use in enhanced reality interfaces in fulfillment centers. I combined concepts from computer graphics with HCI to produce several prototypes and demonstrated the system in its intended environment.
+   During an internship at Amazon I designed, developed, and evaluated eyes and head tracking related user interface elements to use in enhanced reality interfaces in fulfillment centers. I combined concepts from computer graphics with HCI to produce several prototypes and demonstrated the system in its intended environment.
 caption: ''
 citation: ''
 conference: ''

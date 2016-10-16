@@ -27,8 +27,9 @@ weight: 2
   </div>
   <div class="publication-info col-md-10 col-sm-9 col-xs-12">
     <a href="{{ pub.url }}"><h2>{{ pub.title }}</h2></a>
-
-    <p><span class="authors">{% include author_list.html authors=pub.authors %}</span><br />
+      
+    <p> {{ pub.blurb }} <br />
+        <span class="authors">{% include author_list.html authors=pub.authors %}</span><br />
       <i>{{ pub.conference }}</i>{% if pub.award %}, <span class="award">{{ pub.award }}</span>{% endif %}<br/>
       <a href="{{ site.url }}{{ pub.pdf }}" class="btn btn-default btn-xs" aria-label="Download PDF">
         <span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF

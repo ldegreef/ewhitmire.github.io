@@ -17,7 +17,15 @@ github_username:  ldegreef
 
 # Collections
 collections:
-- projects
+  projects:
+    output: true
+    
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
 
 # Build settings
 markdown: kramdown
