@@ -35,6 +35,7 @@ date: '2016-02-27'
 image: '/img/pubs/TeleTourist_image.jpg'
 pdf: /pdfs/TeleTourist.pdf
 poster: /pdfs/TeleTourist_poster.pdf
+talkslides: ''
 thumbnail: '/img/pubs/TeleTourist_thumbnail.jpg'
 title: 'TeleTourist: Immersive Telepresence Tourism for Mobility-Restricted Participants'
 video: ''
