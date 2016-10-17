@@ -45,9 +45,13 @@ code {
       }
     }
   }
-  .authors a {
-    color: $darkGray;
-    text-decoration: underline;
+.authors {
+    color: $grey-color;
+    font-size: 90%;
+    a {
+      color: $darkGray;
+      text-decoration: underline;
+      }
   }
   h2 {
     margin-top: 0px;
