@@ -17,6 +17,6 @@ image: '/img/pubs/LogiSketch_image.png'
 location: 'Harvey Mudd College'
 talkslides: /pdfs/LogiSketch_talk.pdf
 thumbnail: '/img/pubs/LogiSketch_thumbnail.png'
-title: 'LogiSketch: A Free-Sketch Digital Circuit Design and Simulation System''
+title: 'LogiSketch: A Free-Sketch Digital Circuit Design and Simulation System'
 year: 2010
 ---
