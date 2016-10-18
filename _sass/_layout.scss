@@ -28,14 +28,13 @@
  * Site footer
  */
 
-.site-footer {
+footer {
+    width: 100%;
+    padding: 1.4em 0 0 0;
+    position: absolute;
+    height: 85px;
+    bottom: 0;
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
-}
-
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
 }
 
 .contact-list,
@@ -92,7 +91,6 @@
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
-
 
 
 /**
