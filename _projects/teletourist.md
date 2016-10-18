@@ -32,11 +32,10 @@ conference: ACM Conference on Computer Supported Cooperative Work and Social Com
   (CSCW), 2016
 date: '2016-02-27'
 image: '/img/pubs/TeleTourist_image.jpg'
+location: 'Microsoft Research Redmond'
 posterabstract: /pdfs/TeleTourist.pdf
 poster: /pdfs/TeleTourist_poster.pdf
-talkslides: ''
 thumbnail: '/img/pubs/TeleTourist_thumbnail.jpg'
 title: 'TeleTourist: Immersive Telepresence Tourism for Mobility-Restricted Participants'
-video: ''
-video_embed: ''
+year: 2015
 ---

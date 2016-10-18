@@ -30,7 +30,7 @@ bibtex: |-
   keywords = {gesture recognition, hci, rehabilitation, stroke, tabletop},
  } 
 blurb: |-
-   As part of a four-person team, I designed and developed technology to motivate and assess rehabilitation for stroke patients affected in their upper extremities, using the Microsoft Surface. We interviewed stroke patients and physical therapists, designed a rehabilitative game played on the Microsoft Surface, produced a prototype, and ran user study with stroke patients.
+   As part of a four-person team, I designed and developed technology to motivate and assess rehabilitation for stroke patients affected in their upper extremities, using the Microsoft Surface. We interviewed stroke patients and physical therapists, designed a rehabilitative game played on the Microsoft Surface, produced a prototype, and ran user study with stroke patients. Our work was presented at CWIC '12 and published in a note at CHI '12.
 caption: ''
 citation: |-
   Boulanger, Cati, et al. "Stroke rehabilitation with a sensing surface." Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 2013. DOI=http://dx.doi.org/10.1145/2470654.2466160
@@ -38,9 +38,12 @@ conference: SIGCHI Conference on Human Factors in Computing Systems
   (CHI), 2013
 date: '2013-04-27'
 image: '/img/pubs/PhishicalTherapy_image.jpg'
+location: 'Harvey Mudd College'
 paper: /pdfs/PhishicalTherapy.pdf
 thumbnail: '/img/pubs/PhishicalTherapy_thumbnail.jpg'
-title: 'Stroke Rehabilitation with a Sensing Surface'
+talkslides: /pdfs/PhishicalTherapy_CWIC_talk.pdf
+title: 'Microsoft Surface for Stroke Rehabilitation'
 video: ''
 video_embed: ''
+year: 2011-2012
 ---

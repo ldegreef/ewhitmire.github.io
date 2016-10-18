@@ -10,9 +10,11 @@ blurb: |-
 caption: ''
 date: '2014-07-23'
 image: '/img/pubs/PAPUI_image.png'
+location: 'Amazon'
 talkslides: /pdfs/PAPUI_talk.pdf
 thumbnail: '/img/pubs/PAPUI_thumbnail.png'
 title: 'Perspective Aware Projected User Interfaces'
 video: ''
 video_embed: ''
+year: 2014
 ---

@@ -6,20 +6,19 @@ weight: 2
 ---
 
 
-
-{% capture last_year %}0{% endcapture %}
+{% capture last_location %}''{% endcapture %}
 
 {% assign sorted_pubs = site.projects | sort: 'date' %}
+
 {% for pub in sorted_pubs reversed %}
       
-{% capture this_year %}{{ pub.date | date: "%Y" }}{% endcapture %}
-
-{% if this_year != nil and this_year != last_year%}
-<h2 id="{{ this_year }}-ref">{{this_year}}</h2>
-<hr/>
+{% capture this_location %}{{ pub.location }}{% endcapture %}
+{% if this_location == 'Harvey Mudd College' and this_location != last_location %}
+<h3>Undergraduate</h3>
+<hr>
 {% endif %}
+{% capture last_location %}{{ this_location }}{% endcapture %}
 
-{% capture last_year %}{{ this_year }}{% endcapture %}
 
 <div class="row publication-badge">
   <div class="publication-pic col-md-2 col-sm-3 col-xs-12 text-left">

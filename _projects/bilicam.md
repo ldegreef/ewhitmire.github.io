@@ -37,6 +37,7 @@ conference: ACM International Joint Conference on Pervasive and Ubiquitous Compu
   (UbiComp), 2014
 date: '2016-09-13'
 image: '/img/pubs/BiliCam_image.jpg'
+location: 'University of Washington'
 paper: /pdfs/BiliCam.pdf
 poster: /pdfs/BiliCam_poster.pdf
 talkslides: /pdfs/BiliCam_talk.pdf
@@ -44,4 +45,5 @@ thumbnail: '/img/pubs/BiliCam_thumbnail.jpg'
 title: 'BiliCam: Using Mobile Phones to Monitor Newborn Jaundice'
 video: ''
 video_embed: ''
+year: 2012 - present
 ---
