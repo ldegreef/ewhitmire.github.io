@@ -27,9 +27,6 @@ code {
     a {
       display: block;
       position: relative;
-      padding-bottom: 56.25%;
-      //border-radius: 10px;
-      overflow: hidden;
       @media (min-width: 768px){
       }
       img {
@@ -40,11 +37,12 @@ code {
         top: 0px;
         left: 0px;
         @media (min-width: 768px){
-          //max-width: 150px;
+        border-radius: 10px;
         }
       }
     }
   }
+    
 .authors {
     color: $grey-color;
     font-size: 90%;
