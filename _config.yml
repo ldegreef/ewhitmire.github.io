@@ -29,3 +29,7 @@ defaults:
 
 # Build settings
 markdown: kramdown
+
+exclude: 
+    - bower_components/bootstrap/CHANGELOG.md
+    - bower_components/jquery/README.md
