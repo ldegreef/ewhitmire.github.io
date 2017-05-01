@@ -32,4 +32,5 @@ markdown: kramdown
 
 exclude: 
     - bower_components/bootstrap/CHANGELOG.md
+    - bower_components/bootstrap/README.md
     - bower_components/jquery/README.md
