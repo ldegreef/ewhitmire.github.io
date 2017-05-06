@@ -1,3 +1,13 @@
+.title {
+    h1 {
+        font-size: 400%;
+    }
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
 .bio {
     font-size: 14pt;
 }
@@ -5,11 +15,6 @@
 .edu {
     font-size: 12pt;
     margin-top: 20px;
-}
-
-.about {
-    display: flex;
-    align-itmes: center;
 }
 
 .portrait {
