@@ -23,27 +23,26 @@ layout: default
         <span class="glyphicon glyphicon-book" aria-hidden="true"></span> BibTeX
       </button>
 --> 
-      {% if page.paper %} 
-<!--        <a href="{{ site.url }}{{ page.paper }}" class="btn btn-default btn-xs" aria-label="Download PDF">-->
+      {% if page.paper %}
         <a href="{{ page.paper }}" class="btn btn-default btn-xs" aria-label="Download PDF">
         <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Publication
         </a> 
       {% endif %}
         
       {% if page.posterabstract %} 
-        <a href="{{ site.url }}{{ page.posterabstract }}" class="btn btn-default btn-xs" aria-label="Download PDF">
+        <a href="{{ page.posterabstract }}" class="btn btn-default btn-xs" aria-label="Download PDF">
         <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Poster Abstract
         </a> 
       {% endif %}
         
       {% if page.poster %} 
-        <a href="{{ site.url }}{{ page.poster }}" class="btn btn-default btn-xs" aria-label="Download PDF">
+        <a href="{{ page.poster }}" class="btn btn-default btn-xs" aria-label="Download PDF">
         <span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Poster
         </a> 
       {% endif %}
     
       {% if page.talkslides %} 
-        <a href="{{ site.url }}{{ page.talkslides }}" class="btn btn-default btn-xs" aria-label="Download PDF">
+        <a href="{{ page.talkslides }}" class="btn btn-default btn-xs" aria-label="Download PDF">
         <span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span> Talk Slides
         </a> 
       {% endif %}
