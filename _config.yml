@@ -11,7 +11,7 @@ author: Lilian de Greef
 email: >
 description: Home page for Lilian de Greef, computer science PhD student at the University of Washington.
   
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: www.ldegreef.com
 #url: "https://ldegreef.github.io" # the base hostname & protocol for your site
 github_username:  ldegreef
