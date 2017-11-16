@@ -29,7 +29,7 @@ bibtex: |-
    keywords = {bilirubin, health sensing, image processing, mobile phones, neonatal jaundice},
   }
 blurb: |-
-   This project investigates how to use smartphone cameras to screen newborns for dangerous levels of jaundice — a medical condition characterized by yellowing of the skin. I work in close collaboration with UW Medical Center to develop data collection procedures and software, apply computer vision to parse images, and use machine learning to estimate jaundice levels. Work from this project was published as a paper in UbiComp '14 with an Honorable Mention Award.
+   This project investigates how to use smartphone cameras to screen newborns for dangerous levels of jaundice — a medical condition characterized by yellowing of the skin. I work in close collaboration with UW Medical Center to develop data collection procedures and software, apply computer vision to parse images, and use machine learning to estimate jaundice levels. Work from this project was published as a paper in UbiComp 2014 with an Honorable Mention Award.
 caption: ''
 citation: |-
   Lilian de Greef, Mayank Goel, Min Joon Seo, Eric C. Larson, James W. Stout, James A. Taylor, and Shwetak N. Patel. 2014. BiliCam: using mobile phones to monitor newborn jaundice.  In Proceedings of the 2014 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp '14). ACM, New York, NY, USA,  331-342. DOI=http://dx.doi.org/10.1145/2632048.2632076
@@ -38,7 +38,7 @@ conference: ACM International Joint Conference on Pervasive and Ubiquitous Compu
 date: '2016-09-13'
 image: '/img/pubs/BiliCam_image.jpg'
 location: 'University of Washington'
-paper: /pdfs/BiliCam.pdf
+paper: /pdfs/BiliCam_UbiComp.pdf
 poster: /pdfs/BiliCam_poster.pdf
 talkslides: /pdfs/BiliCam_talk.pdf
 thumbnail: '/img/pubs/BiliCam_thumbnail.jpg'
