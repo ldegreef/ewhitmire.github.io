@@ -6,11 +6,12 @@ authors:
 - Alex Colburn
 - Jim Curlander
 blurb: |-
-  During an internship at Amazon I designed, developed, and evaluated eyes and head tracking related user interface elements to use in enhanced reality interfaces in fulfillment centers. I combined concepts from computer graphics with HCI to produce several prototypes and demonstrated the system in its intended environment.
+  During an internship at Amazon I designed, developed, and evaluated eyes and head tracking related user interface elements to use in enhanced reality interfaces in fulfillment centers. I combined concepts from computer graphics with HCI to produce several prototypes and demonstrated the system in its intended environment. This work resulted in a patent.
 caption: ''
 date: '2014-07-23'
 image: '/img/pubs/PAPUI_image.png'
 location: 'Amazon'
+patent: 'https://www.google.com/patents/US9723248'
 talkslides: /pdfs/PAPUI_talk.pdf
 thumbnail: '/img/pubs/PAPUI_thumbnail.png'
 title: 'Perspective Aware Projected User Interfaces'

@@ -29,6 +29,19 @@ layout: default
         </a> 
       {% endif %}
         
+      {% if page.patent %}
+        <a href="{{ page.patent }}" class="btn btn-default btn-xs" aria-label="Link to Patent">
+        <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> 
+            Patent {% if page.patent2 %} #1 {% endif %}
+        </a> 
+      {% endif %}
+        
+      {% if page.patent2 %}
+        <a href="{{ page.patent2 }}" class="btn btn-default btn-xs" aria-label="Link to Patent">
+        <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Patent #2
+        </a> 
+      {% endif %}
+        
       {% if page.posterabstract %} 
         <a href="{{ page.posterabstract }}" class="btn btn-default btn-xs" aria-label="Download PDF">
         <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Poster Abstract
