@@ -33,7 +33,7 @@ bibtex: |-
   publisher={Am Acad Pediatrics}
   }
 blurb: |-
-  'This project is follow-up work to <a href="/projects/bilicam">BiliCam</a>, in which we made modifications to the BiliCam system and ran larger study to validate its efficacy at screening newborn jaundice. This study spanned across 7 different sites around the country to broaden the diversity of skin tones in our dataset. From our dataset of samples from 530 newborns, BiliCam demonstrated medically accurate estimates. Our findings are published as a journal paper in Pediatrics, August 2017.'
+  This project is follow-up work to <a href="/projects/bilicam">BiliCam</a>, in which we made modifications to the BiliCam system and ran larger study to validate its efficacy at screening newborn jaundice. This study spanned across 7 different sites around the country to broaden the diversity of skin tones in our dataset. From our dataset of samples from 530 newborns, BiliCam demonstrated medically accurate estimates. Our findings are published as a journal paper in Pediatrics, August 2017.
 caption: ''
 citation: |-
   Taylor, J.A., Stout, J.W., de Greef, L., Goel, M., Patel, S., Chung, E.K., Koduri, A., McMahon, S., Dickerson, J., Simpson, E.A. and Larson, E.C., 2017. Use of a Smartphone App to Assess Neonatal Jaundice. Pediatrics, p.e20170312.
