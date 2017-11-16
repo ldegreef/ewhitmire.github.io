@@ -29,21 +29,23 @@ bibtex: |-
    keywords = {bilirubin, health sensing, image processing, mobile phones, neonatal jaundice},
   }
 blurb: |-
-   This project investigates how to use smartphone cameras to screen newborns for dangerous levels of jaundice — a medical condition characterized by yellowing of the skin. I work in close collaboration with UW Medical Center to develop data collection procedures and software, apply computer vision to parse images, and use machine learning to estimate jaundice levels. Work from this project was published as a paper in UbiComp 2014 with an Honorable Mention Award.
+   This project investigates how to use smartphone cameras to screen newborns for dangerous levels of jaundice — a medical condition characterized by yellowing of the skin. I work in close collaboration with UW Medical Center to develop data collection procedures and software, apply computer vision to parse images, and use machine learning to estimate jaundice levels. Work from this project was published as a paper in UbiComp 2014 with an Honorable Mention Award, and resulted in two patents, and current commercial development.
 caption: ''
 citation: |-
   Lilian de Greef, Mayank Goel, Min Joon Seo, Eric C. Larson, James W. Stout, James A. Taylor, and Shwetak N. Patel. 2014. BiliCam: using mobile phones to monitor newborn jaundice.  In Proceedings of the 2014 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp '14). ACM, New York, NY, USA,  331-342. DOI=http://dx.doi.org/10.1145/2632048.2632076
 conference: ACM International Joint Conference on Pervasive and Ubiquitous Computing
   (UbiComp), 2014
 date: '2016-09-13'
-image: '/img/pubs/BiliCam_image.jpg'
+image: '/img/pubs/BiliCam_UbiComp_image.png'
 location: 'University of Washington'
 paper: /pdfs/BiliCam_UbiComp.pdf
 poster: /pdfs/BiliCam_poster.pdf
+patent: 'https://www.google.com/patents/WO2014172033A1'
+patent2: 'https://www.google.com/patents/US20150359459'
 talkslides: /pdfs/BiliCam_talk.pdf
-thumbnail: '/img/pubs/BiliCam_thumbnail.jpg'
+thumbnail: '/img/pubs/BiliCam_UbiComp_thumbnail.png'
 title: 'BiliCam: Using Mobile Phones to Monitor Newborn Jaundice'
-video: ''
-video_embed: ''
+video: 'https://www.youtube.com/watch?v=gCW4LvVDYt8'
+video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/gCW4LvVDYt8" frameborder="0" allowfullscreen></iframe>'
 year: 2012 - present
 ---

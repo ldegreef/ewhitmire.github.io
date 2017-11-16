@@ -24,7 +24,7 @@ bibtex: |-
    keywords = {Telepresence, accessibility, mobile, virtual tourism},
   }
 blurb: |-
-  During an internship at Microsoft Reserach, I conceived and developed a prototype of TeleTourist, a system that uses video calls with strangers to share experiences for people with mobility restrictions. I interviewed individuals with mobility restrictions as formative work, designed system features, and implemented a subset of them for a prototype. This project was published as a poster at CSCW '16.
+  During an internship at Microsoft Reserach, I conceived and developed a prototype of TeleTourist, a system that uses video calls with strangers to share experiences for people with mobility restrictions. I interviewed individuals with mobility restrictions as formative work, designed system features, and implemented a subset of them for a prototype. This project was published as a poster at CSCW '16 and resulted in a patent.
 caption: ''
 citation: |-
   Lilian de Greef, Meredith Morris, and Kori Inkpen. 2016. TeleTourist: Immersive Telepresence Tourism for Mobility-Restricted Participants. In Proceedings of the 19th ACM Conference on Computer Supported Cooperative Work and Social Computing Companion (CSCW '16). ACM, New York, NY, USA, 273-276. DOI=http://dx.doi.org/10.1145/2818052.2869082
@@ -35,6 +35,7 @@ image: '/img/pubs/TeleTourist_image.jpg'
 location: 'Microsoft Research Redmond'
 posterabstract: /pdfs/TeleTourist.pdf
 poster: /pdfs/TeleTourist_poster.pdf
+patent: 'https://www.google.com/patents/US9591260'
 thumbnail: '/img/pubs/TeleTourist_thumbnail.jpg'
 title: 'TeleTourist: Immersive Telepresence Tourism for Mobility-Restricted Participants'
 year: 2015

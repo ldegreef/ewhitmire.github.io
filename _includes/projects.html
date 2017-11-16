@@ -37,6 +37,19 @@
             <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Publication
             </a> 
           {% endif %}
+            
+          {% if pub.patent %}
+            <a href="{{ pub.patent }}" class="btn btn-default btn-xs" aria-label="Link to Patent">
+            <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> 
+                Patent {% if pub.patent2 %} #1 {% endif %}
+            </a> 
+          {% endif %}
+            
+          {% if pub.patent2 %}
+            <a href="{{ pub.patent2 }}" class="btn btn-default btn-xs" aria-label="Link to Patent">
+            <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Patent #2
+            </a> 
+          {% endif %}
 
           {% if pub.posterabstract %} 
             <a href="{{ pub.posterabstract }}" class="btn btn-default btn-xs" aria-label="Download PDF">
