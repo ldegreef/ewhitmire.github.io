@@ -46,6 +46,6 @@ talkslides: /pdfs/BiliCam_talk.pdf
 thumbnail: '/img/pubs/BiliCam_UbiComp_thumbnail.png'
 title: 'BiliCam: Using Mobile Phones to Monitor Newborn Jaundice'
 video: 'https://www.youtube.com/watch?v=gCW4LvVDYt8'
-video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/gCW4LvVDYt8" frameborder="0" allowfullscreen></iframe>'
+video_embed: '<iframe width="450" height="300" src="https://www.youtube.com/embed/gCW4LvVDYt8" frameborder="0" allowfullscreen></iframe>'
 year: 2012 - present
 ---
