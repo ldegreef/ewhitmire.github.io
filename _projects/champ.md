@@ -5,6 +5,7 @@ authors:
 - Lilian de Greef
 - Jessica Lundin
 - Naoto Usayama
+- Children's Mercy Hospital CHAMP Team
 blurb: |-
   During an internship at Microsoft Research, I worked on improving <a href="https://www.childrensmercy.org/Clinics_and_Services/Clinics_and_Departments/Heart_Center/CHAMP_App/">CHAMP</a>, a system for monitoring infants with single ventricle heart disease. I communicated with medical partners at Children’s Mercy Hospital, concretized technical goals, formulated methodology, wrangled and pre-processed data, developed prediction algorithms, and drafted the team’s future work. Insights from my work have already influenced clinical practice, with the potential for further impact as the project develops. Publication in progress.
 image: '/img/pubs/CHAMP_image.png'
