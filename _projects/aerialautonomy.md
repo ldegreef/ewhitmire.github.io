@@ -28,8 +28,8 @@ date: '2012-04-23'
 image: '/img/pubs/AerialAutonomy_image.png'
 location: 'Harvey Mudd College'
 paper: /pdfs/AerialAutonomy.pdf
-poster: /pdfs/AerialAutonomy_poster.pdf
-talkslides: /pdfs/AerialAutonomy_talk.pdf
+poster: /pdfs/AerialAutonomy_AAAI_poster.pdf
+talkslides: /pdfs/AerialAutonomy_CWIC_talk.pdf
 thumbnail: '/img/pubs/AerialAutonomy_thumbnail.png'
 title: 'Accessible Aerial Autonomy'
 video: 'https://youtu.be/o_O2o2ly-34'
