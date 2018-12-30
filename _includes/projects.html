@@ -1,7 +1,4 @@
-
-<header class="post-header">
-<h1 class="post-title">Projects</h1>
-</header>
+<h2 class="post-title">Projects</h2>
 
 <div class="post-content">
 
@@ -14,8 +11,6 @@
     {% capture this_location %}{{ pub.location }}{% endcapture %}
     {% if this_location == 'Harvey Mudd College' and this_location != last_location %}
     <h3>Undergraduate</h3>
-    <hr> 
-    <br />
     {% endif %}
     {% capture last_location %}{{ this_location }}{% endcapture %}
 
@@ -25,7 +20,7 @@
         {% if pub.image.size > 0 %}<a href="{{ pub.url }}"><img src="{{ pub.thumbnail }}"/></a>{% endif %}&nbsp;
       </div>
       <div class="publication-info col-md-10 col-sm-9 col-xs-12">
-        <a href="{{ pub.url }}"><h2>{{ pub.title }}</h2></a>
+        <a href="{{ pub.url }}"><h4>{{ pub.title }}</h4></a>
 
         <p> <span class="authors">{% include author_list.html authors=pub.authors %}</span> <br />
 

@@ -1,0 +1,13 @@
+<h2 class="post-title">Featured Press</h2>
+
+{% capture last_location %}''{% endcapture %}
+
+{% assign sorted_press = site.press | sort: 'priority' %}
+
+<div class="press">
+    {% for pub in sorted_press %}
+        
+        <a href="{{ pub.href }}"><img src="{{ pub.image }}"/></a>
+
+    {% endfor %}
+</div>

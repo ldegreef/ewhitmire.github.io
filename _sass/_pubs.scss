@@ -6,37 +6,33 @@
     border-color: #d6d6d6;
     border-width: thin;
 
-}
+    img {
+      width: 150px;
+      border-radius: 10px;
+    }
 
-.pub img {
-    width:150px;
-    border-radius: 10px;
-}
+    .title {
+      color: rgb(185, 0, 0);
+      font-size: 12pt;
+    }
 
-.pub .title {
-    color: rgb(185, 0, 0);
-    font-size: 12pt;
-}
-.pub .authors {
-}
+    .authors {}
 
+    .venue {
+      color: rgb(196, 196, 196);
+    }
 
-.pub .venue {
-    color: rgb(196, 196, 196);
-}
+    .note {}
 
-.pub .note {
-}
+    .award {
+      color: #3592e3;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
 
-.pub .award {
-    color: #3592e3;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-.pub .minor {
-    color: #3592e3;
-}
-
-.pub .links {
+    .minor {
+      color: #3592e3;
+    }
     
-}
+    .links {}
+  }

@@ -1,0 +1,14 @@
+.press {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        img {
+            margin: 20px;
+            max-height: 50px;
+            max-width: 200px;
+        }
+    }
+}

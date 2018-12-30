@@ -8,7 +8,7 @@
 # Site settings
 title: Lilian de Greef
 author: Lilian de Greef
-email: >
+email: ldegreef@uw.edu
 description: Home page for Lilian de Greef, computer science PhD student at the University of Washington.
   
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -19,6 +19,8 @@ github_username:  ldegreef
 # Collections
 collections:
   projects:
+    output: true
+  press:
     output: true
     
 defaults:
