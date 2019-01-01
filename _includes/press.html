@@ -7,7 +7,7 @@
 <div class="press">
     {% for pub in sorted_press %}
         
-        <a href="{{ pub.href }}"><img src="{{ pub.image }}"/></a>
+        <a href="{{ pub.href }}"><img src="{{ pub.image }}" alt="{{ pub.alt-text }}"/></a>
 
     {% endfor %}
 </div>
