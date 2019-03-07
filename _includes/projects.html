@@ -32,6 +32,12 @@
             <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Publication
             </a> 
           {% endif %}
+
+          {% if pub.techreport %} 
+            <a href="{{ pub.techreport }}" class="btn btn-default btn-xs" aria-label="Download PDF">
+            <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Tech Report
+            </a> 
+          {% endif %}
             
           {% if pub.patent %}
             <a href="{{ pub.patent }}" class="btn btn-default btn-xs" aria-label="Link to Patent">
