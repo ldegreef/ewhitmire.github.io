@@ -1,9 +1,15 @@
+
+- title: "Undergraduate Research"
+  location: University of Washington
+  role: Graduate Mentor
+  offerings: 2014 - present
+  description: "Over several years, I mentored four undergraduate students to participate in research projects. Through guidance and projects focused on real-world applications, I helped them understand research, learn and develop skills for applying computer vision or user-centered design, practice skills for working with iOS or OpenCV, and figure out future career plans."
 - title: "UW CSE 373: Data Structures and Algorithms for Non-Majors"
   location: University of Washington
-  role: Predoctoral Instructor
+  role: Instructor
   href: "https://courses.cs.washington.edu/courses/cse373/17su/"
   offerings: Summer 2017
-  description: "I taught an course on the fundamentals of data structures and algorithms. As part of my role, I prepared and delivered lectures with interactive activities for a class of 67 students ranging from high school to graduate school students with a diverse set of majors; managed a team of 5 teaching assistants; prepared homework assignments; wrote, proctored, and graded exams; hosted office hours; and mentored some students one-on-one outside of office hours. My teaching was rated 4.4/5 by my students in the final course review."
+  description: "As a predoctoral instructor, I taught an course on the fundamentals of data structures and algorithms. As part of my role, I prepared and delivered lectures with interactive activities for a class of 67 students ranging from high school to graduate school students with a diverse set of majors; managed a team of 5 teaching assistants; prepared homework assignments; wrote, proctored, and graded exams; hosted office hours; and mentored some students one-on-one outside of office hours. My teaching was rated 4.4/5 by my students in the final course review."
 - title: "UW CSE 373: Data Structures and Algorithms for Non-Majors"
   role: Teaching Assistant
   href: "https://courses.cs.washington.edu/courses/cse373/16su/"
