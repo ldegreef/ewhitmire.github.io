@@ -190,3 +190,21 @@ pre {
         }
     }
 }
+
+
+.art_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+
+    .art_piece {
+
+        max-width: 300px;
+        img {
+            width: 100%;
+            vertical-align: middle;
+            border-radius: 5px;
+        }
+    }
+
+}
