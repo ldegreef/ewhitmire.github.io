@@ -12,14 +12,18 @@ Yo, I'd done some art stuff. I even (sort of) have a degree in it. Lorem ipsum d
     {% for piece in site.data.art %}
 
     <div class="art-piece">
-        <div class="hover-img">
-            <img src="{{ piece.image }}">
-        </div>
         <div>
             <img src="{{ piece.thumb }}">
         </div>
     </div>
+    {% endfor %}
 
+</div>
+
+<div class="art-grid">
+    {% for piece in site.data.art %}
+
+        <span class="preview-image" style="background-image: url('{{ piece.image }}')"></span>
 
     {% endfor %}
 
