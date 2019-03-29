@@ -22,10 +22,7 @@
       <div class="publication-info col-md-10 col-sm-9 col-xs-12">
         <a href="{{ pub.url }}"><h4>{{ pub.title }}</h4></a>
 
-        <p> <span class="authors">{% include author_list.html authors=pub.authors %}</span> <br />
-
-          {{ pub.blurb }}
-          <br/>
+        <p> 
 
           {% if pub.paper %} 
             <a href="{{ pub.paper }}" class="btn btn-default btn-xs" aria-label="Download PDF">
@@ -88,6 +85,10 @@
             </button>
           {% endif %}
 
+          <br/>
+          <span class="authors">{% include author_list.html authors=pub.authors %}</span>
+          <br/>
+          {{ pub.blurb }}
         </p>
       </div>
 
