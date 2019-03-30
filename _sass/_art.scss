@@ -8,7 +8,7 @@
     grid-row-gap: 50px;
 
     // Version using pre-cropped thumbnails.
-    .art-piece {
+    &>a {
         position: relative;
 
         img {
@@ -19,13 +19,16 @@
 
         &:hover {
             transform: scale(1.01);
-            box-shadow: #aaa 2px 2px 11px;  
-            
-        }        
+            box-shadow: #aaa 2px 2px 11px;
+        }
+
+        .caption {
+          display: none;
+        }
     }
 
     // Version using Dominik's fancy slidey transition.
-    .art-piece {  
+    &>a {
         display: flex;
         flex-direction: column;
     }
@@ -44,8 +47,8 @@
 
         &:hover {
           background-position: bottom right;
-          transform: scale(1.01);  
-          box-shadow: #aaa 2px 2px 11px;  
+          transform: scale(1.01);
+          box-shadow: #aaa 2px 2px 11px;
         }
       }
 

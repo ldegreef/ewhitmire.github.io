@@ -8,23 +8,19 @@ title: Art
 
 Yo, I'd done some art stuff. I even (sort of) have a degree in it. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-<div class="art-grid">
+<div id="art-gallery" class="art-grid">
     {% for piece in site.data.art %}
-
-    <div class="art-piece">
-        <div>
-            <img src="{{ piece.thumb }}">
+    <a href="{{ "/img/art/" | append: piece.image | relative_url }}" data-sub-html=".caption">
+        <span class="preview-image" style="background-image: url('{{ "/img/art/" | append: piece.image | relative_url }}')"></span>
+        <div class="caption">
+            <h4>{{ piece.title }}</h4>
         </div>
-    </div>
+    </a>
     {% endfor %}
-
 </div>
 
-<div class="art-grid">
-    {% for piece in site.data.art %}
-
-        <span class="preview-image" style="background-image: url('{{ piece.image }}')"></span>
-
-    {% endfor %}
-
-</div>
+<script>
+    lightGallery(document.getElementById('art-gallery'), {
+        subHtmlSelectorRelative: true
+    }); 
+</script>
