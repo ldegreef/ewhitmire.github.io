@@ -13,7 +13,7 @@ Yo, I'd done some art stuff. I even (sort of) have a degree in it. Lorem ipsum d
     <a href="{{ "/img/art/" | append: piece.image | relative_url }}" data-sub-html=".caption">
         <span class="preview-image" style="background-image: url('{{ "/img/art/" | append: piece.image | relative_url }}')"></span>
         <div class="caption">
-            <h4>{{ piece.title }}</h4>
+            <h4>{{ piece.title }}</h4> <p>{{ piece.medium }}, {{ piece.year }}</p>
         </div>
     </a>
     {% endfor %}
@@ -21,6 +21,7 @@ Yo, I'd done some art stuff. I even (sort of) have a degree in it. Lorem ipsum d
 
 <script>
     lightGallery(document.getElementById('art-gallery'), {
-        subHtmlSelectorRelative: true
+        subHtmlSelectorRelative: true,
+        download: false
     }); 
 </script>

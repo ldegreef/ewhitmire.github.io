@@ -48,7 +48,12 @@
   year: 2007
   image: boots_1.jpg
   thumb: boots_1_thumb.jpg
-  medium: "ink on paper, printed from acrylic etching"
+  medium: "ink printing on paper from acrylic etching"
+- title: "Boots (print 2)"
+  year: 2007
+  image: boots_2.jpg
+  thumb: boots_2_thumb.jpg
+  medium: "ink printing on paper from acrylic etching"
 - title: "Mandala Self Portrait"
   year: 2006
   image: Mandala.jpg
@@ -59,3 +64,48 @@
   image: Blue_Spheres.jpg
   thumb: Blue_Spheres_thumb.jpg
   medium: "chalk pastel on paper"
+- title: "Untitled Figure Painting 3"
+  year: 2012
+  image: untitled_figure_painting_3.jpg
+  thumb: untitled_figure_painting_3_thumb.jpg
+  medium: "oil on paper"
+- title: "Untitled Skin Color Study"
+  year: 2012
+  image: skinfolds.jpg
+  thumb: skinfolds_thumb.jpg
+  medium: "oil on paper"
+- title: "Untitled Warm-up Figure Painting"
+  year: 2012
+  image: untitled_warm-up_figure_painting.jpg
+  thumb: untitled_warm-up_figure_painting_thumb.jpg
+  medium: "oil on paper"
+- title: "Floating Landscape"
+  year: 2010
+  image: panorama.jpg
+  thumb: panorama_thumb.jpg
+  medium: "oil on four stretched canvases"
+- title: "Oranges"
+  year: 2010
+  image: oranges.jpg
+  thumb: oranges_thumb.jpg
+  medium: "oil on canvas"
+- title: "30-second Figure Drawing 1"
+  year: 2007
+  image: 30_second_figure_1.jpg
+  thumb: 30_second_figure_1_thumb.jpg
+  medium: "Ink on butcher paper"
+- title: "30-second Figure Drawing 2"
+  year: 2007
+  image: 30_second_figure_2.jpg
+  thumb: 30_second_figure_2_thumb.jpg
+  medium: "ink and water on butcher paper"
+- title: "Firefighter"
+  year: 2007
+  image: Firefighter.jpg
+  thumb: Firefighter_thumb.jpg
+  medium: "acrylic on canvas"
+- title: "Childhood Memories"
+  year: 2006
+  image: Childhood_Memories.jpg
+  thumb: Childhood_Memories_thumb.jpg
+  medium: "acrylic on canvas"

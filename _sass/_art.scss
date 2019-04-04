@@ -2,14 +2,16 @@
     padding-top: 50px;
     padding-bottom: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
-    grid-column-gap: 50px;
-    grid-row-gap: 50px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
 
     // Version using pre-cropped thumbnails.
     &>a {
         position: relative;
+        display: flex;
+        flex-direction: column;
 
         img {
             width: 100%;
@@ -17,20 +19,14 @@
             border-radius: 5px;
         }
 
-        &:hover {
-            transform: scale(1.01);
-            box-shadow: #aaa 2px 2px 11px;
-        }
+        // &:hover {
+        //     transform: scale(1.01);
+        //     box-shadow: #aaa 2px 2px 11px;
+        // }
 
         .caption {
           display: none;
         }
-    }
-
-    // Version using Dominik's fancy slidey transition.
-    &>a {
-        display: flex;
-        flex-direction: column;
     }
 
     .preview-image {
@@ -38,7 +34,6 @@
         width: 100%;
         height: 0;
         padding-top: 100%;
-        border-radius: 5px;
 
         background-size: cover;
         background-position: top left;
@@ -46,22 +41,28 @@
         transition: background 1.5s;
 
         &:hover {
+          transform: scale(1.008);
           background-position: bottom right;
-          transform: scale(1.01);
           box-shadow: #aaa 2px 2px 11px;
         }
       }
 
 }
 
-@include media-query($on-laptop) {
-    .art-grid {
-      grid-template-columns: 1fr 1fr;
-    }
+@media (max-width: 1200px) {
+  .art-grid {
+    grid-template-columns: 1fr 1fr 1fr;
   }
+}
 
-  @include media-query($on-palm) {
-    .art-grid {
-      grid-template-columns: 1fr;
-    }
+@media (max-width: 700px) {
+  .art-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@include media-query($on-palm) {
+  .art-grid {
+    grid-template-columns: 1fr;
+  }
 }
