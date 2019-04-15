@@ -14,6 +14,16 @@
   image: Robspierre_the_Rhino.jpg
   thumb: Robspierre_the_Rhino_thumb.jpg
   medium: "oil on canvas"
+- title: "Ed's Elephant"
+  year: 2016
+  image: Ed_Elephant_preview.png
+  gif: Ed_Elephant.gif
+  video: Ed_Elephant.mp4
+  medium: "Acrylic on ceramic"
+- title: "Back of Ed's Elephant"
+  year: 2016
+  image: Ed_Elephant_back.jpg
+  medium: "Acrylic on ceramic"
 - title: "Distorted Self Portrait"
   year: 2012
   image: distorted_selfportrait.jpg
