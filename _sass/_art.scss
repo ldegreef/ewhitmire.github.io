@@ -109,6 +109,18 @@
 
 }
 
+.lg-sub-html {
+  max-width: 750px;
+  margin: auto;
+
+  h4 {
+    text-align: left;
+  }
+  p {
+    text-align: left;
+  }
+}
+
 @media (max-width: 1200px) {
 .graphics-grid {
   grid-template-columns: 1fr 1fr 1fr;
