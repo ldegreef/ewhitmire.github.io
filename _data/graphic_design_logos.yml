@@ -1,0 +1,46 @@
+- title: "Space Cookies Logo"
+  year: 2016
+  image: Space_Cookies_color.png
+  gif: Space_Cookies_logo.gif
+  commisioner: Space Cookies Robotics Team
+  link: http://frc.spacecookies.org/
+  explanation: The logo for the Space Cookies, a NASA & Girl Scouts team for the FIRST Robotics Competition.
+- title: "Muddwarts Freshman Orientation Logo"
+  year: 2010
+  image: Muddwarts_logo.jpg
+  thumb: Muddwarts_logo.png
+  commisioner: Harvey Mudd College
+  explanation: The logo for Harvey Mudd's Harry Potter themed 2010 Freshman Orientation, featured on the identifiable t-shirts worn by all the students running orientation. It showcases a Donut Man strawberry-filled donut (which has its Mudd history and tradition), a slide rule (classic),  one of Mudd's popular modes of transportation (unicycle), a rhino moving at 3/5 the speed of light (part of your relativity homework), and Wally the Wart (Mudd's mascot).
+- title: "Notikinfest logo"
+  year: 2013
+  # image: Notkin_shirt.jpg
+  image: Notkin_plain.png
+  gif: Notkin_shirt.gif
+  commisioner: Notkinfest (at the Paul G. Allen School of Computer Science and Engineering)
+  link: https://news.cs.washington.edu/2013/02/01/honoring-david-notkin/
+  explanation: A cartoon representation of David Notkin, used for Notkinfest's logo and t-shirts to celebrate the life and career of David Notkin. The design is intentionally friendly and somewhat whimsical to both reflect on David Notkin's personality and to reflect on how the celebration aims to be fun and lighthearted in the face of Notkin's terminal cancer.
+- title: "CWIC-SoCal '12 Logo"
+  year: 2012
+  image: CWIC-SoCal_logo.png
+  gif: CWIC-SoCal_logo.gif
+  commisioner: Celebration of Women in Computing Southern California 2012
+  link: https://www.cs.hmc.edu/cwic-socal/
+  explanation: The logo for the 2012 Celebration of Women in Computing in Southern California (CWIC-SoCal) conference. It represents computer science (via printed circuit board patterns), women (via ♀), Southern California (via sun rays), and global impact (via a globe). The conference committee wanted a hand-drawn look. 
+- title: "Anna's Elephant Logo"
+  year: 2018
+  image: Jana_Elephant.jpg
+  thumb: Jana_Elephant.png
+  commisioner: Jana Lücken
+  explanation: "I was commisioned to design the following logo for Anna's escape-room bachelorette party: an chained up cartoon elephant with the text \"ANNA's\" hidden in the legs. Fitting all these pieces together was a challenge! \"JGA\" is short for Junggesellinnenabschied -- the German word for bachelorette party."
+- title: "Alex's Panda Logo"
+  year: 2018
+  image: Jana_Panda.jpg
+  thumb: Jana_Panda.png
+  commisioner: Jana Lücken
+  explanation: "I was commisioned to design the following logo for Alex's escape-room bachelor party: an chained up panda with the text \"ALEX\" hidden in the legs. Fitting all these pieces together was a challenge!"
+- title: "Signature"
+  year: 2004
+  image: sig_white.png
+  thumb: sig_black.png
+  commisioner: Myself
+  explanation: "My stylized signature: -liliAN- that looks like a wire trace with two battery cells and a resistor"

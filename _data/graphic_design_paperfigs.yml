@@ -1,0 +1,29 @@
+- title: "DigiTouch figure"
+  year: 2016
+  image: DigiTouch.png
+  commisioner: Eric Whitmire
+  link: https://ubicomplab.cs.washington.edu/publications/digitouch/
+  explanation: A figure for an academic paper to illustrate the use cases of DigiTouch.
+- title: "SurfaceLink figure"
+  year: 2013
+  image: SurfaceLink.png
+  commisioner: Mayank Goel
+  link: https://ubicomplab.cs.washington.edu/publications/surfacelink/
+  explanation: A figure for an academic paper to illustrate the use cases of SurfaceLink.
+- title: "HyperCam figure"
+  year: 2015
+  image: HyperCam.png
+  commisioner: Mayank Goel
+  link: https://ubicomplab.cs.washington.edu/publications/hypercam/
+  explanation: A figure for an academic paper to illustrate one of the use cases for HyperCam.
+- title: "SideSwipe figure"
+  year: 2015
+  image: Chen_Figures.png
+  commisioner: Chen Zhao
+  link: https://ubicomplab.cs.washington.edu/publications/sideswipe/
+  explanation: A figure for an academic paper to illustrate the gestures that SideSwipe can recognize.
+- title: "5C Map"
+  year: 2010
+  image: 5C_Map.jpg
+  commisioner: Harvey Mudd College
+  explanation: Illustrated highlights of the Claremont Colleges overlaid on the campus map, for Harvey Mudd's 2010 Freshman Orientation handbook.
