@@ -10,7 +10,7 @@
   image: Muddwarts_logo.jpg
   thumb: Muddwarts_logo.png
   commisioner: Harvey Mudd College
-  explanation: The logo for Harvey Mudd's Harry Potter themed 2010 Freshman Orientation, which orientation leaders wore on shirts to be clearly identifiable.
+  explanation: The logo for Harvey Mudd's Harry Potter themed 2010 Freshman Orientation, featured on the identifiable t-shirts worn by all the students running orientation. It showcases a Donut Man strawberry-filled donut (which has its Mudd history and tradition), a slide rule (classic),  one of Mudd's popular modes of transportation (unicycle), a rhino moving at 3/5 the speed of light (part of your relativity homework), and Wally the Wart (Mudd's mascot).
 - title: "Notikinfest logo"
   year: 2013
   # image: Notkin_shirt.jpg
@@ -23,7 +23,7 @@
   year: 2012
   image: CWIC-SoCal_logo.png
   gif: CWIC-SoCal_logo.gif
-  commisioner: Celebration of Women in Computing Souther California 2012
+  commisioner: Celebration of Women in Computing Southern California 2012
   link: https://www.cs.hmc.edu/cwic-socal/
   explanation: The logo for the 2012 Celebration of Women in Computing in Southern California (CWIC-SoCal) conference. It represents computer science (via printed circuit board patterns), women (via ♀), Southern California (via sun rays), and global impact (via a globe). The conference committee wanted a hand-drawn look. 
 - title: "Anna's Elephant Logo"
@@ -38,21 +38,9 @@
   thumb: Jana_Panda.png
   commisioner: Jana Lücken
   explanation: "I was commisioned to design the following logo for Alex's escape-room bachelor party: an chained up panda with the text \"ALEX\" hidden in the legs. Fitting all these pieces together was a challenge!"
-- title: "DigiTouch figure"
-  year: 2016
-  image: DigiTouch.png
-  commisioner: Eric Whitmire
-  link: https://ubicomplab.cs.washington.edu/publications/digitouch/
-  explanation: A figure for an academic paper to illustrate the use cases of DigiTouch.
-- title: "HyperCam figure"
-  year: 2015
-  image: HyperCam.png
-  commisioner: Mayank Goel
-  link: https://ubicomplab.cs.washington.edu/publications/hypercam/
-  explanation: A figure for an academic paper to illustrate one of the use cases for HyperCam.
-- title: "SurfaceLink figure"
-  year: 2013
-  image: SurfaceLink.png
-  commisioner: Mayank Goel
-  link: https://ubicomplab.cs.washington.edu/publications/surfacelink/
-  explanation: A figure for an academic paper to illustrate the use cases of SurfaceLink.
+- title: "Signature"
+  year: 2004
+  image: sig_white.png
+  thumb: sig_black.png
+  commisioner: Myself
+  explanation: "My stylized signature: -liliAN- that looks like a wire trace with two battery cells and a resistor"

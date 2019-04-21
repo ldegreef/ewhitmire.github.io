@@ -11,9 +11,40 @@ Yo, I'd done some graphic design. All of these are commissions. I charge $15/hou
 
 <!-- hidden video div -->
 
+<h2>Logos</h2>
 
 <div id="art-gallery" class="graphics-grid">
-    {% for piece in site.data.graphic_design %}
+    {% for piece in site.data.graphic_design_logos %}
+    {% if piece.gif %}
+        <a href="{{ "/img/graphic_design/" | append: piece.gif | relative_url }}" data-sub-html=".caption">
+    {% else %}
+        <a href="{{ "/img/graphic_design/" | append: piece.image | relative_url }}" data-sub-html=".caption">
+    {% endif %}
+        {% if piece.thumb %}
+            <span class="preview-image" style="background-image: url('{{ "/img/graphic_design/" | append: piece.thumb | relative_url }}')"></span>
+        {% else %}
+            <span class="preview-image" style="background-image: url('{{ "/img/graphic_design/" | append: piece.image | relative_url }}')"></span>
+        {% endif %}
+        <div class="caption">
+            <h4>{{ piece.title }}</h4> 
+            <p>
+                Commissioner: {{ piece.commisioner }}
+            </p><p>
+                <!-- {% if piece.link %} <a href="{{ piece.link }}"> {{ piece.commisioner }} </a> 
+                {% else %} {{ piece.commisioner }}
+                {% endif %}: -->
+                {{ piece.explanation }}
+            </p>
+        </div>
+    </a>
+    {% endfor %}
+</div>
+
+
+<h2>Figures</h2>
+
+<div id="art-gallery" class="graphics-grid">
+    {% for piece in site.data.graphic_design_paperfigs %}
     {% if piece.gif %}
         <a href="{{ "/img/graphic_design/" | append: piece.gif | relative_url }}" data-sub-html=".caption">
     {% else %}
