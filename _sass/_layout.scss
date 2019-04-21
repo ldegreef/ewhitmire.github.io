@@ -37,10 +37,6 @@ nav {
     line-height: 36px;
     justify-content: space-between;
   
-    & > *:last-child {
-      margin-left: auto;
-    }
-  
     a {
       color: #333;
       padding: 12px 0.3em 0 0.3em;
@@ -54,9 +50,10 @@ nav {
   
       transition: opacity 0.25s ease-in-out, border 0.25s ease-in-out;
   
-      &:last-child {
-        padding-right: 0;
+      &:visited {
+        color: #333;
       }
+      
       &.active {
         border-bottom-color: #333;
         opacity: 1;
@@ -70,30 +67,7 @@ nav {
         transition: opacity 0.25s ease-in-out, border 0.25s ease-in-out;
       }
     }
-  
-    .external {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-    }
-  
-    .site-title {
-      font-weight: $bold-font-weight;
-      margin-top: 8px;
-      padding: 0;
-      margin-left: 0;
-      margin-right: $spacing-unit;
-      flex: 0 0 auto;
-      font-size: 1.5em;
-      border: none;
-  
-      color: #333;
-      opacity: 1;
-  
-      &:hover {
-        opacity: 0.75;
-      }
-    }
+
   }
   
   @include media-query($on-laptop) {
@@ -108,17 +82,10 @@ nav {
         }
       }
   
-      .site-title {
-        flex: 0 1 100%;
-        padding: 0;
-      }
     }
   }
   
   @include media-query($on-palm) {
-    .site-title {
-      margin-top: 0.5em;
-    }
   
     nav {
       justify-content: space-around;
@@ -131,9 +98,7 @@ nav {
         flex: 0 1 100%;
         justify-content: space-around;
       }
-      .site-title {
-        text-align: center;
-      }
+
       // hide icons from internal links
       & > a .fas {
         display: none;
