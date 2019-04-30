@@ -10,32 +10,13 @@
     position: relative;
 }
 
-.site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
-}
-
-.temp-navbar {
-  border-top: 6px solid $brand-color;
-  padding-top: 6px;
-  margin-bottom: 40px;
-}
-
 nav {
     display: flex;
     align-items: center;
     flex-flow: row wrap;
     line-height: 36px;
     justify-content: space-between;
+    margin-bottom: 20px;
   
     a {
       color: #333;
@@ -44,6 +25,7 @@ nav {
       display: inline-block;
       text-decoration: none;
       font-weight: $bold-font-weight;
+      font-size: 24px;
   
       opacity: 0.75;
       border-bottom: 1px solid transparent;
@@ -76,10 +58,6 @@ nav {
   
       a {
         padding: 0 9px;
-  
-        &:nth-child(2) {
-          margin-left: -8px;
-        }
       }
   
     }
@@ -89,10 +67,6 @@ nav {
   
     nav {
       justify-content: space-around;
-  
-      & > *:last-child {
-        margin-left: initial;
-      }
   
       .external {
         flex: 0 1 100%;
