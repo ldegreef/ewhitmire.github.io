@@ -17,7 +17,7 @@ nav {
     flex-flow: row wrap;
     line-height: 36px;
     // justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 36px;
   
     a {
       color: #333;
@@ -38,14 +38,14 @@ nav {
       }
       
       &.active {
-        border-bottom-color: #333;
+        border-bottom: 2px solid #666;
         opacity: 1;
       }
       &:hover {
         text-decoration: none;
   
         opacity: 1;
-        border-bottom-color: #333;
+        border-bottom: 2px solid #333;
   
         transition: opacity 0.25s ease-in-out, border 0.25s ease-in-out;
       }
@@ -83,12 +83,10 @@ nav {
         border-radius: 3px;
   
         &:hover {
-          border-color: transparent;
           background: lighten($brand-color, 55%);
         }
   
         &.active {
-          border-color: transparent;
           background: lighten($brand-color, 50%);
           border-radius: 3px;
         }
