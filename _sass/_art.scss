@@ -1,5 +1,5 @@
 .art-grid {
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -42,6 +42,10 @@
         }
       }
 
+}
+
+.art-about {
+  padding-top: 20px;
 }
 
 @media (max-width: 1200px) {
