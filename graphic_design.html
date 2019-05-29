@@ -1,0 +1,82 @@
+---
+layout: default
+permalink: /graphic_design/
+title: Graphic Design
+weight: 2
+---
+
+<p class="art-about">
+I've had the pleasure to create logos and figures for several organizations, events, and publications. I take comissions for a fee.
+</p>
+
+
+<h2>Logos</h2>
+
+<div id="art-gallery-1" class="graphics-grid">
+    {% for piece in site.data.graphic_design_logos %}
+    {% if piece.gif %}
+        <a href="{{ "/img/graphic_design/" | append: piece.gif | relative_url }}" data-sub-html=".caption">
+    {% else %}
+        <a href="{{ "/img/graphic_design/" | append: piece.image | relative_url }}" data-sub-html=".caption">
+    {% endif %}
+        {% if piece.thumb %}
+            <span class="preview-image" style="background-image: url('{{ "/img/graphic_design/" | append: piece.thumb | relative_url }}')"></span>
+        {% else %}
+            <span class="preview-image" style="background-image: url('{{ "/img/graphic_design/" | append: piece.image | relative_url }}')"></span>
+        {% endif %}
+        <div class="caption">
+            <h4>{{ piece.title }}</h4> 
+            <p>
+                Commisioned by: {{ piece.commisioner }}
+            </p><p>
+                <!-- {% if piece.link %} <a href="{{ piece.link }}"> {{ piece.commisioner }} </a> 
+                {% else %} {{ piece.commisioner }}
+                {% endif %}: -->
+                {{ piece.explanation }}
+            </p>
+        </div>
+    </a>
+    {% endfor %}
+</div>
+
+
+<h2>Figures</h2>
+
+<div id="art-gallery-2" class="graphics-grid">
+    {% for piece in site.data.graphic_design_paperfigs %}
+    {% if piece.gif %}
+        <a href="{{ "/img/graphic_design/" | append: piece.gif | relative_url }}" data-sub-html=".caption">
+    {% else %}
+        <a href="{{ "/img/graphic_design/" | append: piece.image | relative_url }}" data-sub-html=".caption">
+    {% endif %}
+    
+        {% if piece.thumb %}
+            <span class="preview-image" style="background-image: url('{{ "/img/graphic_design/" | append: piece.thumb | relative_url }}')"></span>
+        {% else %}
+            <span class="preview-image" style="background-image: url('{{ "/img/graphic_design/" | append: piece.image | relative_url }}')"></span>
+        {% endif %}
+        <div class="caption">
+            <h4>{{ piece.title }}</h4> 
+            <p>
+                Commisioned by: {{ piece.commisioner }}
+            </p><p>
+                <!-- {% if piece.link %} <a href="{{ piece.link }}"> {{ piece.commisioner }} </a> 
+                {% else %} {{ piece.commisioner }}
+                {% endif %}: -->
+                {{ piece.explanation }}
+            </p>
+        </div>
+    </a>
+    {% endfor %}
+</div>
+
+<script>
+    lightGallery(document.getElementById('art-gallery-1'), {
+        subHtmlSelectorRelative: true,
+        download: false
+    }); 
+    lightGallery(document.getElementById('art-gallery-2'), {
+        subHtmlSelectorRelative: true,
+        download: false
+    }); 
+</script>

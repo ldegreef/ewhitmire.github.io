@@ -10,19 +10,90 @@
     position: relative;
 }
 
-.site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
+nav {
+    display: flex;
+    // align-items: center;
+    // align-items: left;
+    flex-flow: row wrap;
+    line-height: 36px;
+    // justify-content: space-between;
+    margin-bottom: 36px;
+  
+    a {
+      color: #333;
+      padding: 12px 0.3em 0 0.3em;
+      margin: 0 0.3em;
+      display: inline-block;
+      text-decoration: none;
+      font-weight: $bold-font-weight;
+      font-size: 24px;
+  
+      opacity: 0.75;
+      border-bottom: 1px solid transparent;
+  
+      transition: opacity 0.25s ease-in-out, border 0.25s ease-in-out;
+  
+      &:visited {
+        color: #333;
+      }
+      
+      &.active {
+        border-bottom: 2px solid #666;
+        opacity: 1;
+      }
+      &:hover {
+        text-decoration: none;
+  
+        opacity: 1;
+        border-bottom: 2px solid #333;
+  
+        transition: opacity 0.25s ease-in-out, border 0.25s ease-in-out;
+      }
     }
-}
+
+  }
+  
+  @include media-query($on-laptop) {
+    nav {
+      line-height: 42px;
+  
+      a {
+        padding: 0 9px;
+      }
+  
+    }
+  }
+  
+  @include media-query($on-palm) {
+  
+    nav {
+      justify-content: space-around;
+  
+      .external {
+        flex: 0 1 100%;
+        justify-content: space-around;
+      }
+
+      // hide icons from internal links
+      & > a .fas {
+        display: none;
+      }
+  
+      a {
+        border-radius: 3px;
+  
+        &:hover {
+          background: lighten($brand-color, 55%);
+        }
+  
+        &.active {
+          background: lighten($brand-color, 50%);
+          border-radius: 3px;
+        }
+      }
+    }
+  }
+  
 
 /**
  * Site footer

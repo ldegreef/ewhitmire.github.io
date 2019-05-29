@@ -4,19 +4,19 @@
     {% for teach in site.data.teaching %}
 
     <div class="row publication-badge">
-    <div class="publication-info col-md-10 col-sm-9 col-xs-12">
-        <h4>{{ teach.role }}</h4>
+        <div class="publication-info col-md-12">
+            <h4>{{ teach.role }}</h4>
 
-        <p>
-            <span class="authors">
-                <b>{{ teach.title }}</b>, {{ teach.location }}:  
-                {% if teach.href %} <a href="{{ teach.href }}">{{ teach.offerings }}</a>
-                {% else %} {{ teach.offerings }} {% endif %}
-            </span>
-            <br/>
-            {{ teach.description }}
-        </p>
-    </div>
+            <p>
+                <span class="authors">
+                    <b>{{ teach.title }}</b>, {{ teach.location }}:  
+                    {% if teach.href %} <a href="{{ teach.href }}">{{ teach.offerings }}</a>
+                    {% else %} {{ teach.offerings }} {% endif %}
+                </span>
+                <br/>
+                {{ teach.description }}
+            </p>
+        </div>
     </div>
     {% endfor %}
 </div>

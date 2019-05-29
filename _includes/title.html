@@ -4,6 +4,26 @@
             <h1> Lilian de Greef </h1>
             <img src="/img/sig.png" />
         </a>
-        <hr>
+        <!-- <hr> -->
     </div>
+
+
+    <nav class="container">
+
+        {% assign pages = site.pages | sort:"weight"  %}
+
+        {% for my_page in pages %}
+            {% if my_page.title %}
+                {% assign current = nil %}
+                {% if my_page.url == page.url %}
+                    {% assign current = 'active' %}
+                {% endif %}
+                <a class="{{ current }}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+            {% endif %}
+        {% endfor %}
+
+        <a href="{{  "/pdfs/Lilian_CV_2019_spring.pdf" | prepend: site.baseurl }}">CV</a>
+    </nav>
+
+
 </header>

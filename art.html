@@ -1,0 +1,36 @@
+---
+layout: default
+permalink: /art/
+title: Studio Art
+weight: 1
+---
+
+<p class="art-about">
+Since I was old enough to hold a pencil, drawing and painting have been a an important part of my life. At this point, I've earned the Harvey Mudd equivalent of a minor in studio arts and continue to pursue art as a hobby.
+
+I take commissions for a fee.
+</p>
+
+
+<div id="art-gallery" class="art-grid">
+    {% for piece in site.data.art %}
+    {% if piece.gif %}
+        <a href="{{ "/img/art/" | append: piece.gif | relative_url }}" data-sub-html=".caption">
+    {% else %}
+        <a href="{{ "/img/art/" | append: piece.image | relative_url }}" data-sub-html=".caption">
+    {% endif %}
+        <span class="preview-image" style="background-image: url('{{ "/img/art/" | append: piece.image | relative_url }}')"></span>
+        <div class="caption">
+            <h4>{{ piece.title }}</h4> <p>{{ piece.medium }}, {{ piece.year }}</p>
+        </div>
+    </a>
+    {% endfor %}
+</div>
+
+<script>
+    lightGallery(document.getElementById('art-gallery'), {
+        subHtmlSelectorRelative: true,
+        download: false,
+        hideBarsDelay: 500
+    }); 
+</script>
