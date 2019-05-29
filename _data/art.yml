@@ -4,118 +4,142 @@
   image: clenched_heart.jpg
   thumb: clenched_heart_thumb.jpg
   medium: "oil on canvas"
+  alt: "A painting of swirling shades of red, beige, and hints of blue against a near-black background, depicting an abstract form remeniscent of both a human heart as well as a clenching hand. "
 - title: "Bryce Canyon"
   year: 2006
   image: Bryce_Canyon.jpg
   thumb: Bryce_Canyon_thumb.jpg
   medium: "acrylic on canvas"
-- title: "Robspierre the Rhino"
+  alt: "A painting depicting a view of some of Bryce Canyon's rock formations in sunlight, as seen from within the shade of a canyon."
+- title: "Reletavistic Robspierre, the Radical Rhino"
   year: 2010
   image: Robspierre_the_Rhino.jpg
   thumb: Robspierre_the_Rhino_thumb.jpg
   medium: "oil on canvas"
+  alt: "A portrait of a rhinocerous wearing a fluttering cape, looking as if it were to step off and fly from a plateau."
 - title: "Ed's Elephant"
   year: 2016
   image: Ed_Elephant_preview.jpg
   gif: Ed_Elephant.gif
   video: Ed_Elephant.mp4
   medium: "Acrylic on ceramic"
+  alt: "A ceramic elephant painted with black, white, and red patterns that mimic stylistic elements of Pacific Northwest Native American art, as seen from multiple views."
 - title: "Back of Ed's Elephant"
   year: 2016
   image: Ed_Elephant_back.jpg
   medium: "Acrylic on ceramic"
+  alt: "The top of a ceramic elephant painted with black, white, and red patterns that depict a representation of an elephant head using stylistic elements of Pacific Northwest Native American art."
 - title: "Distorted Self Portrait"
   year: 2012
   image: distorted_selfportrait.jpg
   thumb: distorted_selfportrait_thumb.jpg
   medium: "oil on canvas"
+  alt: "A painting depicting an array of self-portraits bunched together and distorted in different ways."
 - title: "Untitled Figure Painting 2"
   year: 2012
   image: untitled_figure_painting_2.jpg
   thumb: untitled_figure_painting_2_thumb.jpg
   medium: "oil on paper"
+  alt: "A painting of a standing, nude woman with her arm stretched upward."
 - title: "Whimsical Self Portrait"
   year: 2010
   image: Self_Portrait_2010.jpg
   thumb: Self_Portrait_2010_thumb.jpg
   medium: "oil on canvas"
+  alt: "A painting of a smiling face mischievously peering through a picture frame."
 - title: "Portrait of Noah" 
   year: 2007
   image: Noah_portrait.jpg
   thumb: Noah_portrait_thumb.jpg
   medium: "graphite on paper"
+  alt: "A drawing of a confident young man with curly hair."
 - title: "Rusted Train"
   year: 2007
   image: Rusted_Train.jpg
   thumb: Rusted_Train_thumb.jpg
   medium: "acrylic on canvas"
+  alt: "A painting of a rusted train car in the middle of a yellow field."
 - title: "Elephants"
   year: 2007
   image: Wood_Elephants.jpg
   thumb: Wood_Elephants_thumb.jpg
   medium: "watercolor on paper"
+  alt: "A monochrome painting of two wooden elephants on a sandly plain in the setting sun."
 - title: "Boots (print 1)"
   year: 2007
   image: boots_1.jpg
   thumb: boots_1_thumb.jpg
   medium: "ink printing on paper from acrylic etching"
+  alt: "A print of two heavy black boots overshadowing and stepping over a cowering, crouched, and fragile figure."
 - title: "Boots (print 2)"
   year: 2007
   image: boots_2.jpg
   thumb: boots_2_thumb.jpg
   medium: "ink printing on paper from acrylic etching"
+  alt: "A print of two heavy black boots overshadowing and stepping over a cowering, crouched, and fragile figure."
 - title: "Mandala Self Portrait"
   year: 2006
   image: Mandala.jpg
   thumb: Mandala_thumb.jpg
   medium: "color pencil on paper"
+  alt: "A symbolic set of differently colored rings. A ring of watery waves encircle rings of blue with overlaid symbols, which encircle a ring of green spokes of bamboo, which encircle multiple rings of stylized fire, which encircle a yin-yang."
 - title: "Thought Spheres"
   year: 2006
   image: Blue_Spheres.jpg
   thumb: Blue_Spheres_thumb.jpg
   medium: "chalk pastel on paper"
+  alt: "A drawing of a person controling three glowing, blue spheres hovering in front of her face and between her hands."
 - title: "Untitled Figure Painting 3"
   year: 2012
   image: untitled_figure_painting_3.jpg
   thumb: untitled_figure_painting_3_thumb.jpg
   medium: "oil on paper"
+  alt: "A dark painting of the feet and legs of a prone, nude human figure, as seen from the feet."
 - title: "Untitled Skin Color Study"
   year: 2012
   image: skinfolds.jpg
   thumb: skinfolds_thumb.jpg
   medium: "oil on paper"
+  alt: "A painting of warm colors based on skin tones that is evocative of both a landscape of rolling hills as well as the folds on someone's body."
 - title: "Untitled Warm-up Figure Painting"
   year: 2012
   image: untitled_warm-up_figure_painting.jpg
   thumb: untitled_warm-up_figure_painting_thumb.jpg
   medium: "oil on paper"
+  alt: "A black-and-white painting of the back, leg, and arm of a seated, nude male figure."
 - title: "Floating Landscape"
   year: 2010
   image: panorama.jpg
   thumb: panorama_thumb.jpg
   medium: "oil on four stretched canvases"
+  alt: "A wide painting of a fantastical landscape featuring floating islands, steep cliffs, and a giant waterfall."
 - title: "Oranges"
   year: 2010
   image: oranges.jpg
   thumb: oranges_thumb.jpg
   medium: "oil on canvas"
+  alt: "A painting featuring two oranges; one large orange dominates the frame and another is in its shadow."
 - title: "30-second Figure Drawing 1"
   year: 2007
   image: 30_second_figure_1.jpg
   thumb: 30_second_figure_1_thumb.jpg
   medium: "Ink on butcher paper"
+  alt: "An ink drawing made up of a few sparse, black lines that outline a standing human figure."
 - title: "30-second Figure Drawing 2"
   year: 2007
   image: 30_second_figure_2.jpg
   thumb: 30_second_figure_2_thumb.jpg
   medium: "ink and water on butcher paper"
+  alt: "An ink drawing made up of a few sparse, black lines and a minimal amount of shading that outline a standing human figure."
 - title: "Firefighter"
   year: 2007
   image: Firefighter.jpg
   thumb: Firefighter_thumb.jpg
   medium: "acrylic on canvas"
+  alt: "A painting of a firefighter carrying another person over their shoulder while walking away from an enormous fire."
 - title: "Childhood Memories"
   year: 2006
   image: Childhood_Memories.jpg
   thumb: Childhood_Memories_thumb.jpg
-  medium: "acrylic on canvas"
+  medium: "ink on paper"
+  alt: "An ink drawing that uses stippling to represent a plush bear holding a plastic spoon while resting on a pillow, against a background with ornamental circles."
