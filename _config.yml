@@ -9,12 +9,13 @@
 title: Lilian de Greef
 author: Lilian de Greef
 email: ldegreef@uw.edu
-description: Home page for Lilian de Greef, computer science PhD candidate at the University of Washington.
+description: Home page for Lilian de Greef, computer science PhD.
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: www.ldegreef.com
 #url: "https://ldegreef.github.io" # the base hostname & protocol for your site
 #github_username:  ldegreef
+twitter_username: ldgreef
 linkedin_username: liliandegreef
 
 # Collections
