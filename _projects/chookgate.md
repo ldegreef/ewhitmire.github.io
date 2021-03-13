@@ -9,7 +9,7 @@ authors:
 blurb: |-
    I was part of a four-person team to design a device that automatically opens and closes a chicken coop for a client in Australia. With it, his chickens (a.k.a. chooks, in Australia) could go outside during the day and be safe from predatory foxes at night, regardless of his availability. We designed and developed a system, including a functional prototype, regularly communicated with our client, and delivered a final tech memorandum & presentation.
 caption: ''
-date: '2009-05-01'
+date: 2009-05-01
 image: '/img/pubs/ChookGate_image.jpg'
 location: 'Harvey Mudd College'
 thumbnail: '/img/pubs/Chook_thumbnail.jpg'

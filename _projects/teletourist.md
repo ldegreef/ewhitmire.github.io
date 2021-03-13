@@ -28,9 +28,8 @@ blurb: |-
 caption: ''
 citation: |-
   Lilian de Greef, Meredith Morris, and Kori Inkpen. 2016. TeleTourist: Immersive Telepresence Tourism for Mobility-Restricted Participants. In Proceedings of the 19th ACM Conference on Computer Supported Cooperative Work and Social Computing Companion (CSCW '16). ACM, New York, NY, USA, 273-276. DOI=http://dx.doi.org/10.1145/2818052.2869082
-conference: ACM Conference on Computer Supported Cooperative Work and Social Computing Companion
-  (CSCW), 2016
-date: '2016-02-27'
+conference: ACM Conference on Computer Supported Cooperative Work and Social Computing Companion (CSCW), 2016
+date: 2016-02-27
 image: '/img/pubs/TeleTourist_image.jpg'
 location: 'Microsoft Research Redmond'
 posterabstract: /pdfs/TeleTourist.pdf

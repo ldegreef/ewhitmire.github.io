@@ -93,7 +93,7 @@ layout: default
             <h4 class="modal-title">{{ page.title }}</h4>
           </div>
           <div class="modal-body">
-            <code>{{ page.bibtex }}</code>
+            {{ page.bibtex }}
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -110,7 +110,7 @@ layout: default
             <h4 class="modal-title">{{ page.title }}</h4>
           </div>
           <div class="modal-body">
-            <code>{{ page.citation }}</code>
+            {{ page.citation }}
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -118,7 +118,6 @@ layout: default
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
-        
         
   </section>
   <section>
@@ -148,9 +147,6 @@ layout: default
   <section>
     {{ content }}
   </section>
-    
-    
-
 
 </article>
 </div>

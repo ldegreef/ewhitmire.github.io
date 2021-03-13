@@ -12,7 +12,7 @@ authors:
 blurb: |-
    I helped developed software for tablet PCs to recognize and simulate hand-drawn logic circuits as part of a siz-person team. I specifically focused on methods to refine sketch recognition and refactoring code. I helped the team with user interface design and circuit simulation. The software was then rolled out and used in Harvey Mudd College’s introductory computer science course.
 caption: ''
-date: '2010-08-20'
+date: 2010-08-20
 image: '/img/pubs/LogiSketch_image.png'
 location: 'Harvey Mudd College'
 talkslides: /pdfs/LogiSketch_talk.pdf

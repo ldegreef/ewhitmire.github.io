@@ -9,8 +9,8 @@ authors:
 - Naoto Usayama
 - <a href="https://www.childrensmercy.org/Clinics_and_Services/Clinics_and_Departments/Heart_Center/CHAMP_Program/CHAMP_Team/">Children's Mercy Hospital CHAMP Team</a>
 blurb: |-
- During an internship at Microsoft Research, I worked on improving <a href="https://www.childrensmercy.org/Clinics_and_Services/Clinics_and_Departments/Heart_Center/CHAMP_App/">CHAMP</a>, a system for monitoring infants with single ventricle heart disease. I communicated with medical partners at Children’s Mercy Hospital, concretized technical goals, formulated methodology, wrangled and pre-processed data, developed prediction algorithms, and drafted the team’s future work. Insights from my work have already influenced clinical practice, with the potential for further impact as the project develops. Highlighted on <a href="https://www.instagram.com/p/Bn4WzxbBVx6/?utm_source=ig_web_button_share_sheet">MSR's Instagram</a>. Publication in progress.
-date: '2018-08-14'
+ During an internship at Microsoft Research, I worked on improving <a href="https://www.childrensmercy.org/Clinics_and_Services/Clinics_and_Departments/Heart_Center/CHAMP_App/">CHAMP</a>, a system for monitoring infants with single ventricle heart disease. I communicated with medical partners at Children’s Mercy Hospital, concretized technical goals, formulated methodology, wrangled and pre-processed data, developed prediction algorithms, and drafted the team’s future work. Insights from my work have already influenced clinical practice, with the potential for further impact as the project develops. Highlighted on <a href="https://www.instagram.com/p/Bn4WzxbBVx6/?utm_source=ig_web_button_share_sheet">MSR's Instagram</a>. Published as part of dissertation.
+date: 2018-08-14
 image: '/img/pubs/CHAMP_image.png'
 location: 'Microsoft Research Redmond'
 thumbnail: '/img/pubs/CHAMP_thumbnail.png'

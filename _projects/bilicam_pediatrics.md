@@ -37,7 +37,7 @@ blurb: |-
 caption: ''
 citation: |-
   Taylor, J.A., Stout, J.W., de Greef, L., Goel, M., Patel, S., Chung, E.K., Koduri, A., McMahon, S., Dickerson, J., Simpson, E.A. and Larson, E.C., 2017. Use of a Smartphone App to Assess Neonatal Jaundice. Pediatrics, p.e20170312.
-date: '2017-08-01'
+date: 2017-08-01
 image: '/img/pubs/BiliCam_image.jpg'
 location: 'University of Washington'
 paper: /pdfs/BiliCam_Pediatrics.pdf

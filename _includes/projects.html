@@ -2,7 +2,6 @@
 
 <div class="post-content">
     <br>
-    <h3>During PhD</h3>
     
     {% capture last_location %}''{% endcapture %}
 
@@ -11,6 +10,11 @@
     {% for pub in sorted_pubs reversed %}
 
     {% capture this_location %}{{ pub.location }}{% endcapture %}
+
+    {% if last_location == 'Apple' and this_location != last_location %}
+    <h3>During PhD</h3>
+    {% endif %}
+
     {% if this_location == 'Harvey Mudd College' and this_location != last_location %}
     <h3>Undergraduate</h3>
     {% endif %}

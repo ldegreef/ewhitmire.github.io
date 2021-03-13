@@ -34,9 +34,8 @@ blurb: |-
 caption: ''
 citation: |-
   Boulanger, Cati, et al. "Stroke rehabilitation with a sensing surface." Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 2013. DOI=http://dx.doi.org/10.1145/2470654.2466160
-conference: SIGCHI Conference on Human Factors in Computing Systems
-  (CHI), 2013
-date: '2013-04-27'
+conference: SIGCHI Conference on Human Factors in Computing Systems (CHI), 2013
+date: 2013-04-27
 image: '/img/pubs/PhishicalTherapy_image.jpg'
 location: 'Harvey Mudd College'
 paper: /pdfs/PhishicalTherapy.pdf

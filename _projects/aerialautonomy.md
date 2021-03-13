@@ -24,7 +24,7 @@ caption: ''
 citation: |-
   Berezny, Nick, et al. "Accessible aerial autonomy." 2012 IEEE International Conference on Technologies for Practical Robot Applications (TePRA). IEEE, 2012. DOI=http://dx.doi.org/10.1109/TePRA.2012.6215654
 conference: IEEE International Conference on Technologies for Practical Robot Applications (TePRA) 2012
-date: '2012-04-23'
+date: 2012-04-23
 image: '/img/pubs/AerialAutonomy_image.png'
 location: 'Harvey Mudd College'
 paper: /pdfs/AerialAutonomy.pdf
