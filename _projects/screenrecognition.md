@@ -25,16 +25,16 @@ bibtex: |-
 blurb: |-
   Screen Recognition applies computer vision to automatically infer accessibility metadata for mobile apps from their pixels. Work from this project was published at CHI ’21 and released as an accessibility feature in iOS for VoiceOver.
 citation: |-
-  Zhang, Xiaoyi, et al. "Screen Recognition: Creating Accessibility Metadata for Mobile Applications from Pixels." arXiv preprint arXiv:2101.04893 (2021).
-#   Lilian de Greef, Mayank Goel, Min Joon Seo, Eric C. Larson, James W. Stout, James A. Taylor, and Shwetak N. Patel. 2014. BiliCam: using mobile phones to monitor newborn jaundice.  In Proceedings of the 2014 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp '14). ACM, New York, NY, USA,  331-342. DOI=http://dx.doi.org/10.1145/2632048.2632076
+  Xiaoyi Zhang, Lilian de Greef, Amanda Swearngin, Samuel White, Kyle Murray, Lisa Yu, Qi Shan, Jeffrey Nichols, Jason Wu, Chris Fleizach, Aaron Everitt, and Jeffrey P Bigham. 2021. Screen Recognition: Creating Accessibility Metadata for Mobile Applications from Pixels. In <i>Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems</i> (<i>CHI '21</i>). Association for Computing Machinery, New York, NY, USA, Article 275, 1–15. DOI:https://doi.org/10.1145/3411764.3445186
 conference: SIGCHI Conference on Human Factors in Computing Systems (CHI), 2021
 date: 2021-05-08
 image: '/img/pubs/ScreenRecognition_image.png'
 location: 'Apple'
 paper: /pdfs/ScreenRecognition.pdf
+supplement: /pdfs/ScreenRecognition_Supplementary_Material.pdf
 thumbnail: '/img/pubs/ScreenRecognition_thumbnail.jpg'
 title: 'Screen Recognition: Creating Accessibility Metadata for Mobile Applications from Pixels'
-# video: 'https://www.youtube.com/watch?v=gCW4LvVDYt8'
-# video_embed: '<iframe width="450" height="300" src="https://www.youtube.com/embed/gCW4LvVDYt8" frameborder="0" allowfullscreen></iframe>'
+video: 'https://www.youtube.com/watch?v=Z0pv0ZqFnC0'
+video_embed: '<iframe width="450" height="300" src="https://www.youtube.com/embed/Z0pv0ZqFnC0" frameborder="0" allowfullscreen></iframe>'
 year: 2019-2021
 ---
