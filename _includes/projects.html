@@ -41,12 +41,6 @@
             <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Tech Report
             </a> 
           {% endif %}
-
-          {% if page.supplement %} 
-            <a href="{{ page.supplement }}" class="btn btn-default btn-xs" aria-label="Download PDF">
-            <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Supplemental Material
-            </a> 
-          {% endif %}
             
           {% if pub.patent %}
             <a href="{{ pub.patent }}" class="btn btn-default btn-xs" aria-label="Link to Patent">
@@ -82,6 +76,12 @@
           {% if pub.video.size > 0 %}
             <a href="{{ pub.video }}" class="btn btn-default btn-xs" aria-label="Video" target="_blank">
             <span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> Video
+            </a> 
+          {% endif %}
+
+          {% if page.supplement %} 
+            <a href="{{ page.supplement }}" class="btn btn-default btn-xs" aria-label="Download PDF">
+            <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Supplemental Material
             </a> 
           {% endif %}
 

@@ -35,12 +35,6 @@ layout: default
         </a> 
       {% endif %}
 
-      {% if page.supplement %} 
-        <a href="{{ page.supplement }}" class="btn btn-default btn-xs" aria-label="Download PDF">
-        <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Supplemental Material
-        </a> 
-      {% endif %}
-
       {% if page.patent %}
         <a href="{{ page.patent }}" class="btn btn-default btn-xs" aria-label="Link to Patent">
         <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> 
@@ -77,7 +71,13 @@ layout: default
         <span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> Video
         </a> 
       {% endif %}
-        
+
+      {% if page.supplement %} 
+        <a href="{{ page.supplement }}" class="btn btn-default btn-xs" aria-label="Download PDF">
+        <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Supplemental Material
+        </a> 
+      {% endif %}
+
       {% if page.citation %}
         <button type="button" class="btn btn-default btn-xs" aria-label="Citation" data-toggle="modal" data-target="#{{page.title | slugify}}_citation">
         <span class="glyphicon glyphicon-book" aria-hidden="true"></span> Citation
@@ -89,6 +89,7 @@ layout: default
         <span class="glyphicon glyphicon-book" aria-hidden="true"></span> BibTeX
         </button>
       {% endif %}
+      
     </div>
     
     <div class="modal fade" tabindex="-1" role="dialog" id="{{page.title | slugify}}_bibtex">
