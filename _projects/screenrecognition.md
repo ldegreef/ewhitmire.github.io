@@ -45,6 +45,6 @@ supplement: /pdfs/ScreenRecognition_Supplementary_Material.pdf
 thumbnail: '/img/pubs/ScreenRecognition_thumbnail.jpg'
 title: 'Screen Recognition: Creating Accessibility Metadata for Mobile Applications from Pixels'
 video: 'https://www.youtube.com/watch?v=Z0pv0ZqFnC0'
-video_embed: '<iframe width="450" height="300" src="https://www.youtube.com/embed/Z0pv0ZqFnC0" frameborder="0" allowfullscreen></iframe>'
+video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Z0pv0ZqFnC0" frameborder="0" allowfullscreen></iframe>'
 year: 2019-2021
 ---
